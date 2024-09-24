@@ -1,27 +1,19 @@
 import './App.css';
+import { mainStyle } from './bgPicStyle';  // Importér stilen
 
 function App() {
   return (
     <div className="App">
-      <head>
-      </head>
-      <main>
-        <div style={{ 
-          backgroundImage: 'url(/IMG_2895-2.jpg)', /* Referer til billedet direkte */ 
-          height: '1000px', /* Sæt en højde for at se baggrundsbilledet */ 
-          backgroundSize: 'cover', /* Dæk hele området */ 
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          textAlign: 'center',
-          color: 'white' }}
-        > 
-          <div>
-            <h1>Rasmus Kronborg Ahlstrand</h1>
-          </div> 
+      <header>
+        {/* <h1>Header</h1> */}
+      </header>
+      <main style={mainStyle}>
+        <div class="container">
+          <h1>Rasmus Kronborg Ahlstrand</h1>
         </div>
-      </main>
+      </main> 
       <footer>
+        {/* <h1>Footer</h1> */}
       </footer>
     </div>
   );

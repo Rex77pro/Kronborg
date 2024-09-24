@@ -7,7 +7,7 @@ function App() {
       </head>
       <main>
         <div style={{ 
-          backgroundImage: 'url(/bgPic.jpg)', /* Referer til billedet direkte */ 
+          backgroundImage: 'url(/IMG_2895-2.jpg)', /* Referer til billedet direkte */ 
           height: '800px', /* Sæt en højde for at se baggrundsbilledet */ 
           backgroundSize: 'cover', /* Dæk hele området */ 
           display: 'flex',

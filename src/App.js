@@ -1,18 +1,26 @@
 import './App.css';
-import { mainStyle } from './bgPicStyle';  // Importér stilen
+import { mainStyle, profilePicture } from './bgPicStyle';  // Importér stilen
 
 function App() {
   return (
     <div className="App">
-      <header>
-        {/* <h1>Header</h1> */}
+      <header class="bg-dark p-3">
+        <div class="container-fluid">hello</div>
       </header>
       <main style={mainStyle}>
-        <div class="container">
-          <h1>Rasmus Kronborg Ahlstrand</h1>
+        <div class="row container pt-5">
+          <div class="col">
+            <h7>Hi,</h7> 
+            <br></br>
+            <h7>I am, Rasmus</h7>
+            <br></br>
+            <h7>Software Developer</h7>
+          </div>
+          <div class="col" style={profilePicture}>
+          </div>
         </div>
       </main> 
-      <footer>
+      <footer class="bg-dark p-3">
         {/* <h1>Footer</h1> */}
       </footer>
     </div>

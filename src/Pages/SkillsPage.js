@@ -3,8 +3,19 @@ import React from "react";
 const SkillPage = () => {
     return (
         <div>
+            <div className='container pt-3'>
+                <h1>Skills</h1>
+                <div class='row'>
+                    <div class='col'>
+                        <br></br>
+                        <p>I have worked with a variety of technologies, from frontend to backend systems and databases.</p>
+                        <p>Here are the technologies I have used throughout my career:</p>
+                    </div>
+                </div>
+            </div>
             <div className='container pt-7' style={{ textAlign: 'center'}}>
-                <div class="row" >
+                <br></br>
+                <div class='row' >
                     <div class='col'>
                         <h5 className='fw-bold'>Frontend</h5>
                         <br></br>

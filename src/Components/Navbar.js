@@ -18,12 +18,11 @@ const MyNavbar = () => {
 
     return (
         <Navbar bg={bg} variant={variant} expand='lg'>
-            {/* <Navbar.Brand href="/">Home</Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">   
                 <Nav className ='ms-auto'>
-                    <Nav.Link href='/'>// Home</Nav.Link>
-                    <Nav.Link href='/skills'>// Skills</Nav.Link>
+                    <Nav.Link href='/'>Home</Nav.Link>
+                    <Nav.Link href='/skills'>Skills</Nav.Link>
                 </Nav> 
             </Navbar.Collapse>
         </Navbar>
@@ -31,13 +30,3 @@ const MyNavbar = () => {
 };
 
 export default MyNavbar;
-
-{/* <Navbar bg='dark' variant='dark' expand='lg'>
-    <Navbar.Brand href='/'>Home</Navbar.Brand>
-    <Navbar.Toggle aria-controls='basic-navbar-nav' />
-    <Navbar.Collapse id='basic-navbar-nav' />
-        <Nav classname='me-auto'>
-            <Nav.Link href='/'>// Home</Nav.Link>
-            <Nav.Link href='/skills'>// Skills</Nav.Link>
-        </Nav>
-</Navbar> */}

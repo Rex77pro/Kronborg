@@ -14,8 +14,8 @@ function App() {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav' />
           <Nav classname='me-auto'>
-            <Nav.Link href='/'>Home</Nav.Link>
-            <Nav.Link href='/skills'>Skills</Nav.Link>
+            <Nav.Link href='/'>// Home</Nav.Link>
+            <Nav.Link href='/skills'>// Skills</Nav.Link>
           </Nav>
       </Navbar>
       <Routes>

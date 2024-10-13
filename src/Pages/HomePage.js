@@ -4,9 +4,6 @@ import { mainStyle, profilePicture } from './bgPicStyle';  // Importér stilen
 const HomePage = () => {
     return (
         <div>
-            <header class="bg-dark p-3">
-                <div class="container-fluid">hello</div>
-            </header>
             <main style={mainStyle}>
                 <div class="row container pt-5">
                     <div class="col">
@@ -19,11 +16,9 @@ const HomePage = () => {
                     <div class="col" style={profilePicture}></div>
                 </div>
             </main>
-            <footer class="bg-dark p-3">
-                <h1>Footer</h1>  
-            </footer>
         </div>
     );
 };
 
 export default HomePage;
+

@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Fyld hele skærmens højde */
+    overflow-x: hidden; /* Skjul horisontal scrollbar, hvis der er nogen */
+  }
+  
+  .App {
+    min-height: 100vh; /* Sørg for, at App fylder hele højden af skærmen */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1; /* Sørg for at main tager al tilgængelig plads */
+  }
+  
+  .homepage-content {
+    padding: 20px;
+    /* Juster eventuelt padding efter behov */
+    overflow: hidden; /* Skjul eventuelle utilsigtede scrollbars */
+  }

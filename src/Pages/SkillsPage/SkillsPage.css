@@ -1,0 +1,17 @@
+/* Eksempel på tilpasning af kortene */
+.card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    padding-left: 1rem;
+  }
+  
+  li {
+    font-size: 1.1rem;
+  }

@@ -1,4 +1,37 @@
-.uniqe-link::before {
-    content: '//';
-    margin-right: 0.25rem;
-}
+/* Sørg for at navbaren står vertikalt */
+.navbar {
+    display: flex;
+    flex-direction: column; /* Arranger links vertikalt */
+    width: 200px; /* Bredden på navbaren */
+    position: fixed;
+    top: 0;
+    left: 0; /* Placer navbaren til venstre */
+    height: 100vh; /* Fyld hele højden */
+    background-color: #343a40; /* Baggrundsfarve */
+    color: white; /* Text farve */
+    z-index: 1000; /* Sørg for at navbaren er øverst */
+    padding-top: 20px; /* Padding fra toppen */
+  }
+  
+  /* Sørg for at navbar-links står vertikalt */
+  .navbar .nav {
+    display: flex;
+    flex-direction: column; /* Arranger links lodret */
+    width: 100%;
+    align-items: flex-start; /* Venstrestil links */
+  }
+  
+  /* Style for hvert navbar link */
+  .navbar .nav-link {
+    color: white; /* Hvid farve på tekst */
+    padding: 10px 20px; /* Padding omkring links */
+    text-align: left; /* Venstrestil teksten */
+    width: 100%; /* Sørg for at links fylder hele bredden */
+    font-size: 1.2rem;
+  }
+  
+  .navbar .nav-link:hover {
+    background-color: #575757; /* Farve når man hover */
+    color: white;
+  }
+  

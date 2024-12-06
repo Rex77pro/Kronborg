@@ -1,22 +1,24 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import { Typography, Card, CardContent, CardActions } from "@mui/material";
+import "./HomePage.css"; 
+import { Container, Row, Col } from "react-bootstrap";
+import { Typography } from "@mui/material";
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="homepage">
             <header style={{ backgroundColor: "#007bff", padding: "1rem" }}>
                 <Container>
                     <Typography variant="h4" style={{ color: "white", textAlign: "center" }}>
-                        Velkommen til Min React App
+                        Velkommen til min portfolio
                     </Typography>
                 </Container>
             </header>
-            <main style={{ backgroundColor: "#f8f9fa", padding: "2rem 0" }}>
-                <Container>
+            
+            <main>
+                <Container style={{padding: "2rem"}}>
                     <Row className="text-center">
                         <Col>
-                            <Typography variant="h2" gutterBottom>
+                            {/* <Typography variant="h2" gutterBottom>
                                 Byg flotte brugergrænseflader med React
                             </Typography>
                             <Typography variant="body1" style={{ marginBottom: "1.5rem" }}>
@@ -24,15 +26,16 @@ const HomePage = () => {
                             </Typography>
                             <Button variant="primary" size="lg">
                                 Kom i gang
-                            </Button>
+                            </Button> */}
                         </Col>
                     </Row>
                 </Container>
             </main>
+
             <section style={{ padding: "2rem 0" }}>
                 <Container>
                     <Row>
-                        {[1, 2, 3].map((item) => (
+                        {/* {[1, 2, 3].map((item) => (
                             <Col md={4} key={item} className="mb-4">
                                 <Card>
                                     <CardContent>
@@ -48,13 +51,13 @@ const HomePage = () => {
                                     </CardActions>
                                 </Card>
                             </Col>
-                        ))}
+                        ))} */}
                     </Row>
                 </Container>
             </section>
 
             {/* Footer */}
-            <footer style={{ backgroundColor: "#007bff", padding: "1rem", marginTop: "auto" }}>
+            <footer className="footer">
                 <Container>
                     <Typography variant="body2" style={{ color: "white", textAlign: "center" }}>
                         © 2024 Min React App. Alle rettigheder forbeholdt.

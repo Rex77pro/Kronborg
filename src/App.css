@@ -1,27 +1,34 @@
-.App {
-  text-align: center;
+/* Giv hele appen en flex container til at arrangere navbar og indhold */
+.app-container {
+  display: flex;
+  flex-direction: row; /* Arranger navbar til venstre og content til højre */
+  min-height: 100vh; /* Fyld hele skærmen */
 }
 
+/* Style til navbar - placer den på venstre side */
+.app-container .navbar {
+  width: 200px; /* Giver navbaren en fast bredde */
+  position: fixed;
+  top: 0;
+  left: 0; /* Placer navbaren til venstre */
+  height: 100%; /* Fylder hele højden */
+  background-color: #343a40; /* Baggrundsfarve */
+  color: white; /* Text farve */
+  z-index: 1000; /* Sørg for at navbaren er øverst */
+}
+
+/* Sørg for at tilføje plads til højre for indholdet */
+.main-content {
+  margin-left: 220px; /* Giver plads til navbaren på venstre side */
+  flex: 1; /* Fylder den resterende plads */
+  padding: 2rem;
+}
+
+/* Detaljer for at sikre korrekt visning af logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-/* .App-header {
-  background-color: WHITE;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-} */
 
 .App-link {
   color: #61dafb;

@@ -20,3 +20,9 @@ body, html {
     /* Juster eventuelt padding efter behov */
     overflow: hidden; /* Skjul eventuelle utilsigtede scrollbars */
   }
+
+  .header {
+    background-color: #007bff;
+    padding: 1rem;
+    border-radius: 15px; /* Blødgør hjørnerne */
+  }
